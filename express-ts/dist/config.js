@@ -1,0 +1,11 @@
+"use strict";
+var config = {};
+config.db = {};
+config.server = {};
+config.db.user = "root";
+config.db.host = "localhost";
+config.db.database = "api";
+config.db.password = "heja2121";
+config.db.port = 3306;
+config.server.port = 8000;
+module.exports = config;
